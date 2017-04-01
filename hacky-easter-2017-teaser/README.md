@@ -163,7 +163,7 @@ Sixth flag is `JAOMY`
 ## Riddle 7
 
 
-https://hackyeaster.hacking-lab.com/teaser/#riddle6
+https://hackyeaster.hacking-lab.com/teaser/#riddle7
 
 Welp, what is that? It could be an encoding which doesn't touch special chars.
 Caeser Cipher?

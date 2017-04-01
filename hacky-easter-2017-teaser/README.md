@@ -1,7 +1,7 @@
 # Hacky Easter 2017 Teaser challenges
 
 
-Main challenge site as located here: https://hackyeaster.hacking-lab.com/teaser/
+Challenge site: https://hackyeaster.hacking-lab.com/teaser/
 
 
 ## Riddle 1
@@ -171,30 +171,34 @@ jynfr yz, gwzyj! sacxn
 ixmeq xy, fvyxi! rzbwm
 ```
 
-`etiam tu, brute!` looks the most promising. The rest of the bruteforced combinations are garbage
-so I assume this is the flag we are looking.
+`etiam tu, brute!` (latin) looks the most promising. The rest of the bruteforced combinations are garbage
+so I assume this is the flag we are looking for.
 
 Seventh flag is `NVXSI`
 
 
 ## Riddle 8
 
-ASCII table to the rescue - or rather a python oneliner:
+https://hackyeaster.hacking-lab.com/teaser/#riddle8
+
+ASCII table to the rescue - or rather a python one liner:
 
 ```
 python -c 'print "".join([chr(int(c)) for c in "84 97 107 101 32 116 104 105 115 58 32 71 89 53 84 70".split(" ")])'
 ```
 
-output:
+Output:
 
 ```
 Take this: GY5TF
 ```
 
-Eigth flag is `GY5TF`
+Eight flag is `GY5TF`
 
 
 ## Riddle 9
+
+https://hackyeaster.hacking-lab.com/teaser/#riddle9
 
 Took me way longer than it should have.
 The leading `/` and the word `bit` suggests that it's a `bit.ly` link.
@@ -210,16 +214,20 @@ Ninth flag is `5DFME`
 
 ## Riddle 10
 
+https://hackyeaster.hacking-lab.com/teaser/#riddle10
+
 No comment? Comments are usually not visible - inspect the html source code.
 
 ```
 <p>No comment.<!-- A43JN --></p>
 ```
 
-tenth flag is `A43JN`
+Tenth flag is `A43JN`
 
 
 ## Riddle 11
+
+https://hackyeaster.hacking-lab.com/teaser/#riddle11
 
 Unicode! Looks like only two types of chars are used in this encoding. Is it binary?
 
@@ -228,7 +236,7 @@ Decode the first byte to see which unicode char stands for `0` or `1`.
 `10111100` doesn't decode to a letter, so I assume it's the other way around.
 `01000011` decodes to `C` (in other words the spooky ghosts are `0` and the alien heads are `1`)
 
-With this information we can then take it to our beloved python3.
+With this information we can then take it to our beloved Python3 (because fuck Unicode in Python2).
 
 ```python3
 import binascii
@@ -256,6 +264,8 @@ Eleventh flag is `N5XGK`
 
 ## Riddle 12
 
+https://hackyeaster.hacking-lab.com/teaser/#riddle12
+
 It's XOR.
 
 I wrote the following script to solve it:
@@ -277,12 +287,14 @@ Output:
 XOR IS FUN! ON52C
 ```
 
-Twelvth flag is `ON52C`
+Twelfth flag is `ON52C`
 
 
 ## Riddle 13
 
-Ceasar Cipher - again?!
+https://hackyeaster.hacking-lab.com/teaser/#riddle13
+
+Caesar Cipher - again?!
 
 
 ```
@@ -319,6 +331,8 @@ Thirteenth flag is `ZWK4R`
 
 ## Riddle 14
 
+https://hackyeaster.hacking-lab.com/teaser/#riddle14
+
 A hex dump? Decode the hex blob and store it as a new binary file. It's a `PNG`, open it (preferably in a image editor because it's tiny) to see the flag.
 
 Fourteenth flag is `AGBTC`
@@ -326,8 +340,10 @@ Fourteenth flag is `AGBTC`
 
 ## Riddle 15
 
+https://hackyeaster.hacking-lab.com/teaser/#riddle15
+
 It's regex, match the pattern and print out the match groups in the form of `$2E$44`.
-This pattern yields the following match groups:
+The pattern yields the following match groups:
 
 1. `FR`
 2. `ID`
@@ -341,6 +357,8 @@ Fifteenth flag is `IDEN4`
 
 
 ## Riddle 16
+
+https://hackyeaster.hacking-lab.com/teaser/#riddle16
 
 It's Base85, decode it and win.
 

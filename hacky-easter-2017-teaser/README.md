@@ -42,7 +42,7 @@ https://hackyeaster.hacking-lab.com/teaser/#riddle1
 
 Reverse the string.
 
-```
+```bash
 python -c "print 'MBD2A \!ysaep ,ysaE'[::-1]"
 ```
 
@@ -215,7 +215,7 @@ https://hackyeaster.hacking-lab.com/teaser/#riddle8
 
 ASCII table to the rescue - or rather a python one liner:
 
-```
+```bash
 python -c 'print "".join([chr(int(c)) for c in "84 97 107 101 32 116 104 105 115 58 32 71 89 53 84 70".split(" ")])'
 ```
 
@@ -250,7 +250,7 @@ https://hackyeaster.hacking-lab.com/teaser/#riddle10
 
 No comment? Comments are usually not visible - inspect the html source code.
 
-```
+```html
 <p>No comment.<!-- A43JN --></p>
 ```
 
@@ -270,7 +270,7 @@ Decode the first byte to see which unicode char stands for `0` or `1`.
 
 With this information we can then take it to our beloved Python3 (because fuck Unicode in Python2).
 
-```python3
+```python
 import binascii
 
 x = '👻👽👻👻👻👻👽👽👻👽👻👻👽👽👽👽👻👽👻👻👽👽👽👻👻👽👻👻👻👽👽👽👻👽👻👽👻👻👽👻👻👽👻👻👻👻👻👽👻👽👻👽👻👽👻👻👻👽👻👽👻👻👽👽👻👻👽👻👻👻👻👽👻👻👽👻👻👻👻👻👻👽👻👻👽👽👽👻👻👻👽👽👻👽👻👽👻👽👻👽👽👻👻👻👻👽👻👻👻👽👽👽👻👽👻👻👽👻👽👽'

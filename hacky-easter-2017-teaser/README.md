@@ -4,6 +4,38 @@
 Challenge site: https://hackyeaster.hacking-lab.com/teaser/
 
 
+Instructions:
+
+1. Solve the riddles and get a solution fragment from each.
+2. Combine all the fragments in the right manner.
+3. Decode the result to get the final solution string.
+4. Sign-Up on [Hacking-Lab](https://hacking-lab.com/), if you don't have an account yet.
+5. Submit your solution in Hacking-Lab [HERE](https://hacking-lab.com/user/cases/cases.html?event=1205).
+6. Wait for April 4, when HackyEaster 2017 starts!
+
+
+Riddles solved:
+
++ [Riddle 1](#riddle-1)
++ [Riddle 2](#riddle-2)
++ [Riddle 3](#riddle-3)
++ [Riddle 4](#riddle-4)
++ [Riddle 5](#riddle-5)
++ [Riddle 6](#riddle-6)
++ [Riddle 7](#riddle-7)
++ [Riddle 8](#riddle-8)
++ [Riddle 9](#riddle-9)
++ [Riddle 10](#riddle-10)
++ [Riddle 11](#riddle-11)
++ [Riddle 12](#riddle-12)
++ [Riddle 13](#riddle-13)
++ [Riddle 14](#riddle-14)
++ [Riddle 15](#riddle-15)
++ [Riddle 16](#riddle-16)
++ [Last Challenge](#last-challenge)
+
+
+
 ## Riddle 1
 
 https://hackyeaster.hacking-lab.com/teaser/#riddle1
